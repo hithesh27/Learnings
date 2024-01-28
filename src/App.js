@@ -1,6 +1,6 @@
 import {useState,useEffect} from 'react'
 function App() {
-  const [counter,setCounter]=useState(100);
+  const [counter,setCounter]=useState(1000);
 
   useEffect(()=>{
   setInterval(()=>{
